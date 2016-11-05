@@ -143,7 +143,7 @@ request('http://news.nationalgeographic.com', function (error, response, html) {
 
 //3=========================================
 
-// set the app up with morgan, body-parser, and a static folder
+set the app up with morgan, body-parser, and a static folder
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({
   extended: false
@@ -152,7 +152,7 @@ app.use(express.static('public'));
 
 //Database configuration
 var mongojs = require('mongojs');
-var databaseUrl = "hw18-news2";
+var databaseUrl = "news";
 var collections = ["articles"];
 
 // hook mongojs config to db variable
