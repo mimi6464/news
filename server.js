@@ -152,7 +152,7 @@ app.use(express.static('public'));
 
 //Database configuration
 var mongojs = require('mongojs');
-var databaseUrl = "hw18-news";
+var databaseUrl = "news";
 var collections = ["articles"];
 
 // hook mongojs config to db variable
